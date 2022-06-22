@@ -7,6 +7,7 @@ This notebook is meant to be runned to convert audio files into MFCC features an
 - Once you've trained the SVM model run the following commands to save it:
 	- ```filename = '.\Pickle\SVM-model-Healthy-Faulty-Audios.pkl'```
 	- ```pickle.dump(svclassifier,  open(filename, 'wb'))```
-\nYou can save the filename path ('.\Pickle\SVM-model-Healthy-Faulty-Audios.pkl') to use it in the model deployment application
+
+You can save the filename path ('.\Pickle\SVM-model-Healthy-Faulty-Audios.pkl') to use it in the model deployment application
 
 
